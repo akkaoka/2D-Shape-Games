@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pilih"
+        android:adjustViewBounds="true"
+        android:maxWidth="300dp"
+        android:maxHeight="70dp"
+        android:scaleType="fitCenter"
+        android:layout_above="@+id/imageButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:maxHeight="70dp"
+        android:maxWidth="300dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/hitung"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/imageButton6"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:maxHeight="70dp"
+        android:maxWidth="300dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/kuis"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:maxHeight="70dp"
+        android:maxWidth="300dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/belajar"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/imageButton5"
+        android:layout_alignLeft="@+id/imageButton5"
+        android:layout_alignStart="@+id/imageButton5" />
+
+</RelativeLayout>

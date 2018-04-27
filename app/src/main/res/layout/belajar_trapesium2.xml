@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/soal_trapesium"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:maxHeight="35dp"
+        android:maxWidth="40dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/homehh22"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageButton17"
+        android:layout_alignEnd="@+id/imageButton17" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:maxHeight="150dp"
+        android:maxWidth="250dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/panaahh"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/imageButton16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

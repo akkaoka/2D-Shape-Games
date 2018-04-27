@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/score"
+    android:id="@+id/rel"
+    >
+
+    <TextView
+        android:id="@+id/hasil01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BENAR"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="61dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginStart="69dp"
+        android:layout_above="@+id/hasil02"
+        android:layout_alignLeft="@+id/Back"
+        android:layout_alignStart="@+id/Back">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hasil02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALAH"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="60dp"
+        android:layout_above="@+id/Back"
+        android:layout_alignRight="@+id/hasil01"
+        android:layout_alignEnd="@+id/hasil01">
+    </TextView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/homeh"
+        android:id="@+id/Back"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_marginBottom="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
